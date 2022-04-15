@@ -1,0 +1,20 @@
+
+Configurations :
+git config --global user.name "<<YourGitUsername>>"
+git config --global user.email "<<Your Git Email ID>>"
+git config --global user.password "<<Your Git Account Password>>"
+
+
+To verfiy:
+
+git config user.name
+git config user.email
+
+
+initilisation 		      : git init
+status 			      : git status
+add to staging area 	      : git add .
+add to local repo   	      : git commit -m "message"
+add repo link to upload files : git remote add origin https://github.com/ND-Bhau/QuizApp
+check upload link             : git remote -v
+push files to repository      : git -c http.sslverify=false push origin master
