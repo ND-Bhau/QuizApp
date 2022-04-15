@@ -18,3 +18,8 @@ add to local repo   	      : git commit -m "message"
 add repo link to upload files : git remote add origin https://github.com/ND-Bhau/QuizApp
 check upload link             : git remote -v
 push files to repository      : git -c http.sslverify=false push origin master
+
+
+after some changes pull request
+
+git pull origin master
