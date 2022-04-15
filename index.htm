@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- <div class="quizdiv">
+
+        <p id="que">Question</p>
+        <p id="a">Answers</p>
+        <p id="b">Answers</p>
+        <p id="c">Answers</p>
+        <p id="d">Answers</p>
+
+        <ul>
+            <li><input type="radio" name="answer"><label id="a" for="a">Answers</label></li>
+            <li><input type="radio" name="answer"><label id="b" for="b">Answers</label></li>
+            <li><input type="radio" name="answer"><label id="c" for="c">Answers</label></li>
+            <li><input type="radio" name="answer"><label id="d" for="d">Answers</label></li>
+        </ul>
+        <button onclick="loadque()">Save and next</button>
+
+    </div> -->
+
+
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+            <h2 id="que">Question text</h2>
+            <ul>
+                <li>
+                    <input type="radio" id="a"  name="answer" class="answer" />
+                    <label id="a_ans" for="a">Question</label>
+                </li>
+                <li>
+                    <input type="radio" id="b" name="answer" class="answer" />
+                    <label id="b_ans" for="b">Question</label>
+                </li>
+                <li>
+                    <input type="radio" id="c" name="answer" class="answer" />
+                    <label id="c_ans" for="c">Question</label>
+                </li>
+                <li>
+                    <input type="radio" id="d" name="answer" class="answer" />
+                    <label id="d_ans" for="d">Question</label>
+                </li>
+            </ul>
+        </div>
+        <button id="submit" onclick="submit()">Submit</button>
+    </div>
+
+</body>
+
+</html>
+<script src="./Index.js"></script>
